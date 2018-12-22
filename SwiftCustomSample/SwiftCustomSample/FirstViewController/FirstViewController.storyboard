@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First View Controller-->
         <scene sceneID="7Rg-XE-RYF">
             <objects>
-                <viewController id="ghm-0o-fYo" sceneMemberID="viewController">
+                <viewController id="ghm-0o-fYo" customClass="FirstViewController" customModule="SwiftCustomSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dB8-Bo-1DR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,6 +26,7 @@
                                     <color key="titleColor" red="0.96078431369999995" green="0.25882352939999997" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="secondSegueAction:" destination="ghm-0o-fYo" eventType="touchUpInside" id="8aT-TT-8Hl"/>
                                     <action selector="secondSegueAction:" destination="AeE-Hg-QqK" eventType="touchUpInside" id="NhT-P5-G7w"/>
                                 </connections>
                             </button>
